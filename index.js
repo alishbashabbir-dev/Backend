@@ -2,14 +2,14 @@
 require ('dotenv').config()
 const express = require('express')  //cretaing n object from express library 
 const app = express()  ///variable of express 
-var  port = 4000
+var  port = 3000;
 
 app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 
 app.get('/twitter',(req,res)=>{
-    res.send('WELCOME TO TWITTER')
+    res.send('Welcome twitter')
 })
 
 
