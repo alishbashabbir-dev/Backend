@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
 
 
 app.get('/login',(req,res)=>{
-    res.send('<h1>Please login at channel</h1>')
+    res.send('<h1>Please login </h1>')
 })
 
 
