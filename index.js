@@ -8,21 +8,10 @@ app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 
-app.get('/twitter',(req,res)=>{
-    res.send('Welcome to twitter')
-})
 
 
 app.get('/login',(req,res)=>{
     res.send('<h1>Please login at channel</h1>')
-})
-
-app.get('/youtube',(req,res)=>{
-    res.send('<h2>Welcome to youtube</h2>')
-})
-
-app.get('/home',(req,res)=>{
-    res.send('<h1>Welcome to Home</h1>')
 })
 
 
