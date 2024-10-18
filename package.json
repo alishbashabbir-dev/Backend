@@ -4,21 +4,11 @@
   "description": "a basic app to deploy",
   "main": "main.js",
   "scripts": {
-    "start": "node index.js",
-     "build": " build --output public"
+    "start": "node main.js",         
+    "build": "echo 'Build step not needed for deployment on Vercel'"
   },
-  "keywords": [
-    "node"
-  ],
-  "author": "alishba",
-  "license": "ISC",
   "dependencies": {
     "dotenv": "^16.4.5",
     "express": "^4.21.1"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.22.5",
-    "@babel/cli": "^7.22.5",
-    "@babel/preset-env": "^7.22.5"
   }
 }
