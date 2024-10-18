@@ -5,7 +5,7 @@
   "main": "main.js",
   "scripts": {
     "start": "node index.js",
-     "build": "[my-framework] build --output public"
+     "build": " build --output public"
   },
   "keywords": [
     "node"
